@@ -29,7 +29,7 @@ nav{
     padding: 10px;
     background-color: rgb(0, 44, 0);
 }
-nav > a{
+nav a{
     padding: 8px 10px;
     color: rgb(199, 199, 199);
     background-color: rgb(0, 56, 23);
@@ -39,10 +39,24 @@ nav > a{
     margin: 5px 2px;
     transition-duration: .5s;
 }
-nav > a:hover{
+nav a:hover{
     color: yellow;
     background-color: black;
 }
+.ul-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: o;
+}
+.li-menu{
+    display: inline-block;
+    margin: 0;
+    padding: o;
+}
+.nav-icones{
+    padding-right: 5px;
+}
+
 #paragrafo-1{
  display: none;
 }
